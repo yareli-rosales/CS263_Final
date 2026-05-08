@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CS263 Final Project"
+  navbar:
+    left:
+      - href: home.qmd
+        text: Home
+      - intro.qmd
+      - research.qmd 
+      - impacts.qmd
+      - ethics.qmd
+      - reflection.qmd
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    page-layout: full
+
+
+
