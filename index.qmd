@@ -6,9 +6,9 @@ title: "AI in Hiring Process"
 
 ::: {.column width="60%"}
 
-The use of generative artificial intelligence (AI) to review and write resumes raises concerns about how it affects creativity, critical thinking, and a reviewer’s ability to recognize a candidate’s true qualifications. Many job applicants now use AI tools to improve grammar, organize information, and tailor resumes to job descriptions. At the same time, employers and hiring managers are also using AI systems to screen and evaluate applications more quickly. While these technologies can make hiring more efficient, they also raise important ethical concerns.
-One concern is how the use of AI may affect an applicant’s creativity and critical thinking skills. When AI generates resume content, it may reduce the need for individuals to reflect on their own experiences and communicate them in their own voice. Another concern is whether hiring managers can accurately recognize a candidate’s true qualifications when resumes are heavily assisted by AI. If many applicants use similar AI tools, resumes may begin to look alike, making it harder to distinguish genuine skills and experiences.
-For example, some companies have already reported an increase in AI-generated resumes, making it harder to distinguish between candidates and evaluate authentic qualifications.
+The use of generative artificial intelligence (AI) to review and write resumés raises concerns about how it affects creativity, critical thinking, and a reviewer’s ability to recognize a candidate’s true qualifications. Many job applicants now use AI tools to improve grammar, organize information, and tailor resumés to job descriptions. At the same time, employers and hiring managers are also using AI systems to screen and evaluate applications more quickly. While these technologies can make hiring more efficient, they also raise important ethical concerns.
+One concern is how the use of AI may affect an applicant’s creativity and critical thinking skills. When AI generates resumé content, it may reduce the need for individuals to reflect on their own experiences and communicate them in their own voice. Another concern is whether hiring managers can accurately recognize a candidate’s true qualifications when resumés are heavily assisted by AI. If many applicants use similar AI tools, resumes may begin to look alike, making it harder to distinguish genuine skills and experiences.
+For example, some companies have already reported an increase in AI-generated resumés, making it harder to distinguish between candidates and evaluate authentic qualifications.
 Overall, the growing use of AI in resume writing and review raises questions about fairness, transparency, and trust in the hiring process. This leads to the central question of this case:
 
 **Is it fair to use AI to write resumes in the hiring process?
@@ -17,7 +17,7 @@ Overall, the growing use of AI in resume writing and review raises questions abo
 :::
 
 ::: {.column width="40%"}
-![](resume.png){alt="Person with resumes floating over their head with a distressed look on their face."}
+![](resume.png){alt="Person, with resumés floating over their head, with a distressed look on their face."}
 Image Source: [Medium Article](https://medium.com/@chrislele/resume-builders-are-they-worth-it-306146908122)
 :::
 
@@ -27,3 +27,6 @@ The code for the website can be found in our [GitHub Repository](https://github.
 
 Authors: [Ekarhi Maruwo](mailto:maruwo1@stolaf.edu) and [Yareli Rosales](mailto:rosale6@stolaf.edu)  
 Published on: May 19, 2026
+
+
+
