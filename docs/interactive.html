@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Conclusion – CS263 Final Project</title>
+<title>Interactive AI Audit – CS263 Final Project</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -278,11 +279,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ethical Issues</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./reflection.html" aria-current="page"> 
+    <a class="nav-link" href="./reflection.html"> 
 <span class="menu-text">Conclusion</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./interactive.html"> 
+    <a class="nav-link active" href="./interactive.html" aria-current="page"> 
 <span class="menu-text">Interactive AI Audit</span></a>
   </li>  
 </ul>
@@ -297,25 +298,185 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#experience-the-ai-hiring-process" id="toc-experience-the-ai-hiring-process" class="nav-link active" data-scroll-target="#experience-the-ai-hiring-process">Experience the AI Hiring Process</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
+<main class="content column-page-left" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Conclusion</h1>
+<h1 class="title">Interactive AI Audit</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
+
+
+<section id="experience-the-ai-hiring-process" class="level2">
+<h2 class="anchored" data-anchor-id="experience-the-ai-hiring-process">Experience the AI Hiring Process</h2>
+<p>This tool allows you to see both sides of the AI hiring equation. Paste your resume, upload a text file, or use the AI to generate an optimized version.</p>
+<div class="card border-primary mb-3">
+  <div class="card-body">
+    <h4 class="card-title anchored">Resume Input</h4>
+    
+    <div class="mb-3">
+      <label for="resumeFile" class="form-label">Upload Resume (.txt only)</label>
+      <input class="form-control" type="file" id="resumeFile" accept=".txt">
+    </div>
+
+    <div class="text-center mb-3"><strong>- OR -</strong></div>
+
+    <p class="card-text">Paste your resume text details below.</p>
+    <textarea id="resumeInput" class="form-control" rows="8" placeholder="Paste here..."></textarea>
+    
+    <div class="mt-3">
+        <button onclick="analyzeResume()" class="btn btn-primary">Analyze as Reviewer</button>
+        <button onclick="generateResume()" class="btn btn-info text-white">Generate AI Resume</button>
+    </div>
   </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-
-
-
-</main></div>
 </div>
- <!-- /main -->
+
+<div id="resultsArea" style="display:none;" class="mt-4">
+    <div id="decisionCard" class="card text-white mb-3">
+        <div class="card-header">AI Selection Result</div>
+        <div class="card-body">
+            <h2 id="decisionText" class="card-title anchored"></h2>
+            <p id="matchRate" class="card-text"></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h5 class="anchored">Keywords Prioritized</h5>
+            <ul id="keywordList" class="list-group"></ul>
+        </div>
+        <div class="col-md-6">
+            <h5 class="anchored">The "Black Box" Audit</h5>
+            <div class="alert alert-warning" id="biasReport"></div>
+        </div>
+    </div>
+</div>
+
+<div id="generatorArea" style="display:none;" class="mt-4 alert alert-secondary">
+    <h5 class="anchored">AI-Generated Resume Draft</h5>
+    <p>Below is how the AI would rewrite your input to maximize "keyword density":</p>
+    <pre id="generatedText" style="white-space: pre-wrap; background: #eee; padding: 15px; border-radius: 5px;"></pre>
+</div>
+
+<script>
+// Handle File Upload Reading
+document.getElementById('resumeFile').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        document.getElementById('resumeInput').value = e.target.result;
+    };
+    reader.readAsText(file);
+});
+
+function analyzeResume() {
+    const text = document.getElementById('resumeInput').value.toLowerCase();
+    const resultsArea = document.getElementById('resultsArea');
+    const generatorArea = document.getElementById('generatorArea');
+    
+    generatorArea.style.display = 'none';
+    
+    if(!text.trim()) {
+        alert("Please paste text or upload a file first!");
+        return;
+    }
+
+    const criteria = [
+        {word: "python", label: "Technical Skill: Python"},
+        {word: "leadership", label: "Soft Skill: Leadership"},
+        {word: "st. olaf", label: "Institutional Prestige: St. Olaf"},
+        {word: "internship", label: "Professional Experience: Internship"},
+        {word: "data", label: "Keyword: Data Science"}
+    ];
+
+    let found = criteria.filter(c => text.includes(c.word));
+    let score = Math.round((found.length / criteria.length) * 100);
+
+    const decisionCard = document.getElementById('decisionCard');
+    const decisionText = document.getElementById('decisionText');
+    
+    if (score >= 60) {
+        decisionCard.className = "card text-white bg-success mb-3";
+        decisionText.innerText = "QUALIFIED: MOVE TO INTERVIEW";
+    } else {
+        decisionCard.className = "card text-white bg-danger mb-3";
+        decisionText.innerText = "NOT QUALIFIED: REJECTED";
+    }
+
+    document.getElementById('matchRate').innerText = "Algorithm Match Rate: " + score + "%";
+
+    const list = document.getElementById('keywordList');
+    list.innerHTML = "";
+    found.forEach(item => {
+        let li = document.createElement('li');
+        li.className = "list-group-item d-flex justify-content-between align-items-center";
+        li.innerText = item.label;
+        list.appendChild(li);
+    });
+
+    document.getElementById('biasReport').innerHTML = `
+        <strong>Pattern Priority:</strong> The AI penalized your profile for lacking 
+        ${criteria.length - found.length} specific keywords. <br><br>
+        <strong>Fairness Note:</strong> Even if you have relevant experience, 
+        this algorithm is programmed to flag specific terms.
+    `;
+
+    resultsArea.style.display = 'block';
+    resultsArea.scrollIntoView({ behavior: 'smooth' });
+}
+
+function generateResume() {
+    const text = document.getElementById('resumeInput').value;
+    const generatorArea = document.getElementById('generatorArea');
+    const resultsArea = document.getElementById('resultsArea');
+    
+    resultsArea.style.display = 'none';
+
+    if(!text.trim()) {
+        alert("Please paste text or upload a file first!");
+        return;
+    }
+
+    const aiDraft = `[AI OPTIMIZED VERSION]
+SUMMARY: Highly motivated candidate with LEADERSHIP experience in PYTHON and DATA analysis.
+EDUCATION: St. Olaf College Student.
+EXPERIENCE: Successfully completed a high-impact INTERNSHIP.
+ORIGINAL INPUT: ${text}`;
+
+    document.getElementById('generatedText').innerText = aiDraft;
+    generatorArea.style.display = 'block';
+    generatorArea.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -331,6 +492,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
