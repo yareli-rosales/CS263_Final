@@ -17,14 +17,13 @@ Overall, the growing use of AI in resume writing and review raises questions abo
 :::
 
 ::: {.column width="40%"}
-![Person with resumes floating over their head with a distressed look on their face.](resume.png)
-
-Source: [Medium Article](https://medium.com/@chrislele/resume-builders-are-they-worth-it-306146908122)
+![](resume.png){alt="Person with resumes floating over their head with a distressed look on their face."}
+Image Source: [Medium Article](https://medium.com/@chrislele/resume-builders-are-they-worth-it-306146908122)
 :::
 
 :::
 
 The code for the website can be found in our [GitHub Repository](https://github.com/yareli-rosales/CS263_Final)
 
-Authors: Ekarhi Maruwo and Yareli Rosales  
+Authors: [Ekarhi Maruwo](mailto:maruwo1@stolaf.edu) and [Yareli Rosales](mailto:rosale6@stolaf.edu)  
 Published on: May 19, 2026
