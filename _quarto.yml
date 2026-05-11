@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "CS263 Final Project"
+  title: "CSCI263 Final Project"
   navbar:
     left:
       - href: index.qmd

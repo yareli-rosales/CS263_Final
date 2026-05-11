@@ -14,6 +14,11 @@ Overall, the growing use of AI in resume writing and review raises questions abo
 **Is it fair to use AI to write resumes in the hiring process?
 **
 
+<a href="intro.html" class="btn btn-primary btn-lg" role="button">
+  Read More →
+</a>
+
+
 :::
 
 ::: {.column width="40%"}
