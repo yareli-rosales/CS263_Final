@@ -1,0 +1,5 @@
+---
+title: "Ethical Issues"
+about: 
+  template: trestles
+---
