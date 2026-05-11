@@ -1,5 +1,78 @@
 ---
 title: "Impacts"
-about: 
-  template: trestles
 ---
+
+
+Descriptions of stakeholders (from Worksheet):
+
+Job Applicants
+Job applicants are individuals who submit resumes when applying for jobs. Some applicants use AI tools to help write or improve their resumes, while others do not.
+
+Impact
+- Applicants with access to AI tools may gain an advantage, while those without access may be rejected more often, even if equally qualified.
+- Increased competition may pressure all applicants to use AI tools, even if they prefer not to.
+Interests
+- Fair evaluation of qualifications
+- Equal opportunity in hiring
+- Transparency in hiring decisions
+
+Other Relevant Information
+- Applicants may have different levels of access to technology and different levels of experience using AI tools.
+
+Resume Reviewers
+Resume reviewers are individuals responsible for reading and evaluating resumes during the hiring process.
+
+Impact:
+- They may rely too heavily on AI tools, potentially overlooking strong candidates who do not match AI-generated patterns.
+- Their role may change or become reduced as automation increases.
+
+Interests:
+Efficient review of applications
+Accurate identification of qualified candidates
+Reduced workload
+
+Other Relevant Information
+Their decisions directly affect which candidates move forward in the hiring process.
+
+Human Resources (HR)
+HR professionals manage hiring processes and ensure that companies follow hiring policies and employment laws.
+
+Impact
+- They must balance efficiency with fairness while ensuring AI tools do not introduce discrimination.
+- They may face challenges in regulating and monitoring AI use.
+
+Interests
+Fair and legal hiring practices
+Efficient hiring processes
+Reliable evaluation methods
+
+Other Relevant Information
+HR departments are responsible for balancing efficiency with ethical responsibility.
+
+AI Companies
+AI companies develop the tools used to generate and evaluate resumes.
+
+Impact
+- They benefit financially from increased AI use but are responsible for ensuring fairness and accuracy.
+- Poorly designed systems could contribute to bias in hiring.
+
+Interests
+Innovation and product development
+User trust
+Responsible technology use
+
+Other Relevant Information
+The design of AI systems can influence hiring outcomes.
+
+The Environment
+The environment represents natural resources affected by the operation of AI technology and data centers.
+
+Impact
+Increased use of AI contributes to higher energy and water consumption, which may negatively impact the environment over time
+
+Interests
+Sustainable technology development
+Reduced resource consumption
+
+Other Relevant Information
+Environmental impact is a long-term concern as AI use continues to grow.

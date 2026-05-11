@@ -6,7 +6,7 @@ website:
   title: "CS263 Final Project"
   navbar:
     left:
-      - href: home.qmd
+      - href: index.qmd
         text: Home
       - intro.qmd
       - research.qmd 

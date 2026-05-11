@@ -1,5 +1,5 @@
 ---
-title: "Is it fair to use AI to write resumes in the hiring process?"
+title: "AI in Hiring Process"
 ---
 
 ::: columns
