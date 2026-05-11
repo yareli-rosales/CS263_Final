@@ -1,2 +1,41 @@
 /* css styles */
 
+/* Option cards */
+.option-card {
+  border-radius: 12px;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.option-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.option-card h3 { color: white; margin-bottom: 0.5rem; }
+.option-card p  { color: rgba(255,255,255,0.9); margin: 0; }
+
+.option-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+.opt1 { background-color: #4a7c59; }
+.opt2 { background-color: #c8793a; }
+.opt3 { background-color: #5a7fa8; }
+
+/* Modal headers */
+.opt1-header { background-color: #4a7c59; color: white; }
+.opt2-header { background-color: #c8793a; color: white; }
+.opt3-header { background-color: #5a7fa8; color: white; }
+
+/* Modal backdrop fix */
+.modal-backdrop {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.modal-content {
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.75);
+}

@@ -2,47 +2,103 @@
 title: "Ethical Issues"
 ---
 
-## Options of our case/ scenario 
+## Options of Our Case
 
-Allow the use of AI as long as it is stated : Applicants can use AI tools but must clearly state how they used them.
-Pros: Efficiency when looking through resumes, encourages transparency
-Cons: loss of genuine creativity and critical thinking skills, errors and bias found in the resume screeners, leaving out potential candidates
-Impact on stakeholders: Applicants may feel pressured to use AI, HR must enforce disclosure rules, Reviewers may still struggle to trust resumes
-Allow use of AI only for grammar and translation: Applicants can use AI tools that help them fix their grammar when writing, as well as translate language that is hard to understand.
-Pros: reduce overreliance on AI, enable them to use AI more as a tool, maintains fairness while supporting the accessibility that AI offers
-Cons: Might take a bit more time to look over each resume, hard to monitor how applicants used AI
-Impact on stakeholders: reduces the maximisation of AI as a tool for AI so applicants can still benefit from the support it provides companies, HR has clearer guidelines, AI companies may see use reduced. 
+Click an option to see the details, pros, cons, and ethical framework analysis.
 
-Do not allow the use of AI: applicants and resume reviewers are not allowed to use AI at all, meaning AI companies will only make money from other services they offer, other than help with resume reviews and resume writing.
-Pros: Allow human creativity and critical thinking, hirers can connect to their applicants on a deeper level, ensures equal expectations
-Cons: Increases the workload for resume reviewers, disadvantages non-native speakers
-Impact on stakeholders: heavy workload for resume reviewers 
+<div class="container-fluid px-0">
+<div class="row g-3">
 
+<div class="col-4">
+<div class="option-card opt1" data-bs-toggle="modal" data-bs-target="#modal1" role="button" tabindex="0" aria-label="Option 1: Allow AI With Disclosure">
+<div class="option-icon"></div>
+<h3>Option 1</h3>
+<p>Allow AI With Disclosure</p>
+</div>
+</div>
 
+<div class="col-4">
+<div class="option-card opt2" data-bs-toggle="modal" data-bs-target="#modal2" role="button" tabindex="0" aria-label="Option 2: Allow AI for Grammar and Translation Only">
+<div class="option-icon"></div>
+<h3>Option 2</h3>
+<p>Allow AI for Grammar and Translation Only</p>
+</div>
+</div>
 
-## Below we will evaluate each option based on ethical frameworks 
+<div class="col-4">
+<div class="option-card opt3" data-bs-toggle="modal" data-bs-target="#modal3" role="button" tabindex="0" aria-label="Option 3: Do Not Allow AI">
+<div class="option-icon"></div>
+<h3>Option 3</h3>
+<p>Do Not Allow AI</p>
+</div>
+</div>
 
-Option 1: Allow Use of AI as Long as It Is Stated
-Utilitarianism: This option may create benefits by increasing efficiency in the hiring process. Applicants can produce clearer resumes, and employers can review applications more quickly. However, it may also create harm if applicants rely too heavily on AI, leading to less originality and difficulty identifying genuine skills. If the AI used is not well-trained, it may also introduce bias in applications from applicants from different backgrounds.
-Overall, this option could produce positive outcomes if transparency is required, but it may still create inequality between applicants who have access to AI tools and those who do not.
-Deontology: From a rule-based perspective, requiring applicants to disclose AI use supports fairness and honesty. Transparency allows employers to make informed decisions and maintain trust in the hiring process.
-However, enforcing this rule may be difficult, and some applicants may not follow it.
-Virtue Ethics: This option encourages honesty and responsibility by asking applicants to admit when AI was used. However, it may reduce personal effort and creativity if individuals depend too heavily on AI tools.
+</div>
+</div>
 
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1label" aria-modal="true" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header opt1-header">
+<h4 class="modal-title" id="modal1label"> Option 1: Allow AI With Disclosure</h4>
+<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Applicants can use AI tools but must clearly state how they used them.</p>
+<p><strong>Pros:</strong> Efficiency when looking through resumes, encourages transparency.</p>
+<p><strong>Cons:</strong> Loss of genuine creativity and critical thinking skills, errors and bias in resume screeners, leaving out potential candidates.</p>
+<p><strong>Impact on Stakeholders:</strong> Applicants may feel pressured to use AI, HR must enforce disclosure rules, reviewers may still struggle to trust resumes.</p>
+<hr>
+<p><strong>Utilitarianism:</strong> May increase efficiency but could create inequality between applicants with and without AI access. Positive outcomes depend on whether transparency is actually enforced.</p>
+<p><strong>Deontology:</strong> Requiring disclosure supports fairness and honesty, though enforcement may be difficult and some applicants may not follow the rule.</p>
+<p><strong>Virtue Ethics:</strong> Encourages honesty and responsibility, but heavy AI reliance may reduce personal effort and creativity.</p>
+</div>
+</div>
+</div>
+</div>
 
-Option 2: Allow Use of AI Only for Grammar and Translation
-Utilitarianism: This option balances efficiency and fairness. Applicants can use AI to improve clarity and accessibility, especially for non-native English speakers, while still maintaining responsibility for their own ideas and experiences.
-This approach may produce the greatest overall benefit by supporting communication without replacing critical thinking.
-Deontology: This option follows a clear rule about acceptable AI use. It promotes fairness by allowing limited assistance while preventing misuse of AI-generated content.
-Virtue Ethics: This option supports responsibility, honesty, and self-development. Applicants still need to reflect on their experiences and communicate their own achievements.
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2label" aria-modal="true" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header opt2-header">
+<h4 class="modal-title" id="modal2label"> Option 2: Allow AI for Grammar and Translation Only</h4>
+<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Applicants can use AI tools that help fix grammar and translate language that is hard to understand.</p>
+<p><strong>Pros:</strong> Reduces overreliance on AI, enables AI as a support tool, maintains fairness while supporting accessibility.</p>
+<p><strong>Cons:</strong> Might take more time to review each resume, hard to monitor how applicants used AI.</p>
+<p><strong>Impact on Stakeholders:</strong> Applicants still benefit from AI support, HR has clearer guidelines, AI companies may see reduced use.</p>
+<hr>
+<p><strong>Utilitarianism:</strong> Balances efficiency and fairness. Especially benefits non-native English speakers while preserving critical thinking — likely produces the greatest overall benefit.</p>
+<p><strong>Deontology:</strong> Follows a clear rule about acceptable AI use, promoting fairness while preventing misuse of AI-generated content.</p>
+<p><strong>Virtue Ethics:</strong> Supports responsibility and self-development — applicants still reflect on and communicate their own experiences.</p>
+</div>
+</div>
+</div>
+</div>
 
-
-Option 3: Do Not Allow Use of AI
-
-Utilitarianism: This option protects creativity and authenticity, but it may also create negative consequences. Resume reviewers may experience a heavier workload, and applicants who struggle with writing or language barriers may be disadvantaged.
-
-Deontology: A strict ban on AI may promote fairness by treating all applicants equally. However, it may also limit access to helpful tools that support communication and accessibility.
-
-Virtue Ethics: This option strongly supports independence, effort, and authenticity. It encourages individuals to rely on their own skills rather than automated assistance.
-
+<!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3label" aria-modal="true" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header opt3-header">
+<h4 class="modal-title" id="modal3label"> Option 3: Do Not Allow AI</h4>
+<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Applicants and resume reviewers are not allowed to use AI at all.</p>
+<p><strong>Pros:</strong> Allows human creativity and critical thinking, hirers can connect with applicants on a deeper level, ensures equal expectations.</p>
+<p><strong>Cons:</strong> Increases workload for resume reviewers, disadvantages non-native speakers.</p>
+<p><strong>Impact on Stakeholders:</strong> Heavy workload for resume reviewers, AI companies lose revenue from hiring-related services.</p>
+<hr>
+<p><strong>Utilitarianism:</strong> Protects creativity and authenticity but may disadvantage applicants with language barriers and increase reviewer workload.</p>
+<p><strong>Deontology:</strong> Promotes equal treatment of all applicants, but may limit access to tools that support communication and accessibility.</p>
+<p><strong>Virtue Ethics:</strong> Strongly supports independence, effort, and authenticity — individuals rely entirely on their own skills.</p>
+</div>
+</div>
+</div>
+</div>
 
