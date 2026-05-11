@@ -2,6 +2,47 @@
 title: "Ethical Issues"
 ---
 
+## Options of our case/ scenario 
 
+Allow the use of AI as long as it is stated : Applicants can use AI tools but must clearly state how they used them.
+Pros: Efficiency when looking through resumes, encourages transparency
+Cons: loss of genuine creativity and critical thinking skills, errors and bias found in the resume screeners, leaving out potential candidates
+Impact on stakeholders: Applicants may feel pressured to use AI, HR must enforce disclosure rules, Reviewers may still struggle to trust resumes
+Allow use of AI only for grammar and translation: Applicants can use AI tools that help them fix their grammar when writing, as well as translate language that is hard to understand.
+Pros: reduce overreliance on AI, enable them to use AI more as a tool, maintains fairness while supporting the accessibility that AI offers
+Cons: Might take a bit more time to look over each resume, hard to monitor how applicants used AI
+Impact on stakeholders: reduces the maximisation of AI as a tool for AI so applicants can still benefit from the support it provides companies, HR has clearer guidelines, AI companies may see use reduced. 
+
+Do not allow the use of AI: applicants and resume reviewers are not allowed to use AI at all, meaning AI companies will only make money from other services they offer, other than help with resume reviews and resume writing.
+Pros: Allow human creativity and critical thinking, hirers can connect to their applicants on a deeper level, ensures equal expectations
+Cons: Increases the workload for resume reviewers, disadvantages non-native speakers
+Impact on stakeholders: heavy workload for resume reviewers 
+
+
+
+## Below we will evaluate each option based on ethical frameworks 
+
+Option 1: Allow Use of AI as Long as It Is Stated
+Utilitarianism: This option may create benefits by increasing efficiency in the hiring process. Applicants can produce clearer resumes, and employers can review applications more quickly. However, it may also create harm if applicants rely too heavily on AI, leading to less originality and difficulty identifying genuine skills. If the AI used is not well-trained, it may also introduce bias in applications from applicants from different backgrounds.
+Overall, this option could produce positive outcomes if transparency is required, but it may still create inequality between applicants who have access to AI tools and those who do not.
+Deontology: From a rule-based perspective, requiring applicants to disclose AI use supports fairness and honesty. Transparency allows employers to make informed decisions and maintain trust in the hiring process.
+However, enforcing this rule may be difficult, and some applicants may not follow it.
+Virtue Ethics: This option encourages honesty and responsibility by asking applicants to admit when AI was used. However, it may reduce personal effort and creativity if individuals depend too heavily on AI tools.
+
+
+Option 2: Allow Use of AI Only for Grammar and Translation
+Utilitarianism: This option balances efficiency and fairness. Applicants can use AI to improve clarity and accessibility, especially for non-native English speakers, while still maintaining responsibility for their own ideas and experiences.
+This approach may produce the greatest overall benefit by supporting communication without replacing critical thinking.
+Deontology: This option follows a clear rule about acceptable AI use. It promotes fairness by allowing limited assistance while preventing misuse of AI-generated content.
+Virtue Ethics: This option supports responsibility, honesty, and self-development. Applicants still need to reflect on their experiences and communicate their own achievements.
+
+
+Option 3: Do Not Allow Use of AI
+
+Utilitarianism: This option protects creativity and authenticity, but it may also create negative consequences. Resume reviewers may experience a heavier workload, and applicants who struggle with writing or language barriers may be disadvantaged.
+
+Deontology: A strict ban on AI may promote fairness by treating all applicants equally. However, it may also limit access to helpful tools that support communication and accessibility.
+
+Virtue Ethics: This option strongly supports independence, effort, and authenticity. It encourages individuals to rely on their own skills rather than automated assistance.
 
 

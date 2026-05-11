@@ -2,77 +2,136 @@
 title: "Impacts"
 ---
 
+Click on a stakeholder to learn more about their role and how AI in hiring affects them.
 
-Descriptions of stakeholders (from Worksheet):
+<div class="accordion" id="stakeholders">
 
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#applicants">
 Job Applicants
-Job applicants are individuals who submit resumes when applying for jobs. Some applicants use AI tools to help write or improve their resumes, while others do not.
+</button>
+</h2>
+<div id="applicants" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
+<div class="accordion-body">
+<p>Job applicants are individuals who submit resumes when applying for jobs. Some applicants use AI tools to help write or improve their resumes, while others do not.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>Applicants with access to AI tools may gain an advantage, while those without access may be rejected more often, even if equally qualified.</li>
+<li>Increased competition may pressure all applicants to use AI tools, even if they prefer not to.</li>
+</ul>
+<p><strong>Interests</strong></p>
+<ul>
+<li>Fair evaluation of qualifications</li>
+<li>Equal opportunity in hiring</li>
+<li>Transparency in hiring decisions</li>
+</ul>
+<p><strong>Other Relevant Information</strong></p>
+<p>Applicants may have different levels of access to technology and different levels of experience using AI tools.</p>
+</div>
+</div>
+</div>
 
-Impact
-- Applicants with access to AI tools may gain an advantage, while those without access may be rejected more often, even if equally qualified.
-- Increased competition may pressure all applicants to use AI tools, even if they prefer not to.
-Interests
-- Fair evaluation of qualifications
-- Equal opportunity in hiring
-- Transparency in hiring decisions
-
-Other Relevant Information
-- Applicants may have different levels of access to technology and different levels of experience using AI tools.
-
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reviewers">
 Resume Reviewers
-Resume reviewers are individuals responsible for reading and evaluating resumes during the hiring process.
+</button>
+</h2>
+<div id="reviewers" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
+<div class="accordion-body">
+<p>Resume reviewers are individuals responsible for reading and evaluating resumes during the hiring process.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>They may rely too heavily on AI tools, potentially overlooking strong candidates who do not match AI-generated patterns.</li>
+<li>Their role may change or become reduced as automation increases.</li>
+</ul>
+<p><strong>Interests</strong></p>
+<ul>
+<li>Efficient review of applications</li>
+<li>Accurate identification of qualified candidates</li>
+<li>Reduced workload</li>
+</ul>
+<p><strong>Other Relevant Information</strong></p>
+<p>Their decisions directly affect which candidates move forward in the hiring process.</p>
+</div>
+</div>
+</div>
 
-Impact:
-- They may rely too heavily on AI tools, potentially overlooking strong candidates who do not match AI-generated patterns.
-- Their role may change or become reduced as automation increases.
-
-Interests:
-Efficient review of applications
-Accurate identification of qualified candidates
-Reduced workload
-
-Other Relevant Information
-Their decisions directly affect which candidates move forward in the hiring process.
-
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hr">
 Human Resources (HR)
-HR professionals manage hiring processes and ensure that companies follow hiring policies and employment laws.
+</button>
+</h2>
+<div id="hr" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
+<div class="accordion-body">
+<p>HR professionals manage hiring processes and ensure that companies follow hiring policies and employment laws.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>They must balance efficiency with fairness while ensuring AI tools do not introduce discrimination.</li>
+<li>They may face challenges in regulating and monitoring AI use.</li>
+</ul>
+<p><strong>Interests</strong></p>
+<ul>
+<li>Fair and legal hiring practices</li>
+<li>Efficient hiring processes</li>
+<li>Reliable evaluation methods</li>
+</ul>
+<p><strong>Other Relevant Information</strong></p>
+<p>HR departments are responsible for balancing efficiency with ethical responsibility.</p>
+</div>
+</div>
+</div>
 
-Impact
-- They must balance efficiency with fairness while ensuring AI tools do not introduce discrimination.
-- They may face challenges in regulating and monitoring AI use.
-
-Interests
-Fair and legal hiring practices
-Efficient hiring processes
-Reliable evaluation methods
-
-Other Relevant Information
-HR departments are responsible for balancing efficiency with ethical responsibility.
-
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aicompanies">
 AI Companies
-AI companies develop the tools used to generate and evaluate resumes.
+</button>
+</h2>
+<div id="aicompanies" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
+<div class="accordion-body">
+<p>AI companies develop the tools used to generate and evaluate resumes.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>They benefit financially from increased AI use but are responsible for ensuring fairness and accuracy.</li>
+<li>Poorly designed systems could contribute to bias in hiring.</li>
+</ul>
+<p><strong>Interests</strong></p>
+<ul>
+<li>Innovation and product development</li>
+<li>User trust</li>
+<li>Responsible technology use</li>
+</ul>
+<p><strong>Other Relevant Information</strong></p>
+<p>The design of AI systems can influence hiring outcomes.</p>
+</div>
+</div>
+</div>
 
-Impact
-- They benefit financially from increased AI use but are responsible for ensuring fairness and accuracy.
-- Poorly designed systems could contribute to bias in hiring.
-
-Interests
-Innovation and product development
-User trust
-Responsible technology use
-
-Other Relevant Information
-The design of AI systems can influence hiring outcomes.
-
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#environment">
 The Environment
-The environment represents natural resources affected by the operation of AI technology and data centers.
+</button>
+</h2>
+<div id="environment" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
+<div class="accordion-body">
+<p>The environment represents natural resources affected by the operation of AI technology and data centers.</p>
+<p><strong>Impact</strong></p>
+<ul>
+<li>Increased use of AI contributes to higher energy and water consumption, which may negatively impact the environment over time.</li>
+</ul>
+<p><strong>Interests</strong></p>
+<ul>
+<li>Sustainable technology development</li>
+<li>Reduced resource consumption</li>
+</ul>
+<p><strong>Other Relevant Information</strong></p>
+<p>Environmental impact is a long-term concern as AI use continues to grow.</p>
+</div>
+</div>
+</div>
 
-Impact
-Increased use of AI contributes to higher energy and water consumption, which may negatively impact the environment over time
-
-Interests
-Sustainable technology development
-Reduced resource consumption
-
-Other Relevant Information
-Environmental impact is a long-term concern as AI use continues to grow.
+</div>
