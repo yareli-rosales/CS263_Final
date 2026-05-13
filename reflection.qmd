@@ -3,3 +3,16 @@ title: "Conclusion"
 about: 
   template: trestles
 ---
+## Final Reflection
+
+After reading the contents of our website and interaction with our AI <a href="interactive.qmd" class="btn btn-primary btn-lg" role="button">
+  Chatbot →<br>
+</a>, What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
+
+## Discussion Questions
+
+1. Is the connection between culture and applicants' stories seen in applications? How has it changed?
+2. Should employers treat AI-assisted resumes differently from fully human-written resumes? Why or why not?
+3. Does access to AI technology create an unfair advantage for some applicants?
+4. How can companies verify that the skills listed on resumes are genuine?
+5. Should there be limits on how much AI can be used in the hiring process?

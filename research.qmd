@@ -1,5 +1,23 @@
 ---
 title: "Research"
-about: 
-  template: trestles
 ---
+
+## Real World Examples 
+Recent studies and reports suggest that the use of AI in hiring has significantly changed how employers evaluate candidates. Many hiring managers report that they are reviewing large numbers of resumes that look very similar due to the use of AI tools. This can make it difficult to identify candidates who truly have the skills required for the job.
+
+## Research
+- 76% of hiring managers report that finding genuinely skilled candidates has become more difficult in the era of AI-enhanced resumes.
+- 72% of talent acquisition leaders say they do not fully trust the self-reported skills listed on resumes and would prefer to base hiring decisions on validated skills instead.
+- Some companies are returning to in-person interviews due to increased AI-assisted cheating.
+
+## More information
+Some companies have also noticed an increase in AI-assisted cheating during job interviews, including the use of AI tools to generate answers or simulate responses. As a result, major companies have begun returning to in-person interviews to better assess candidates’ real abilities and reduce fraud.
+Another interesting trend is that employers are shifting their focus from what candidates know to how they apply their knowledge. Skills such as problem-solving, communication, and adaptability are becoming more important than simply listing qualifications on a resume.
+
+There is also a contradiction in the job market:
+
+- Many individuals report difficulty finding employment
+- However, 67% of employers say they are experiencing a talent shortage
+
+This suggests that the issue may not be a lack of applicants, but rather challenges in identifying qualified candidates in an AI-driven hiring environment. 
+

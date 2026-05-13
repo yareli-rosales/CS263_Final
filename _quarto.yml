@@ -13,8 +13,8 @@ website:
       - research.qmd 
       - impacts.qmd
       - ethics.qmd
-      - reflection.qmd
       - interactive.qmd
+      - reflection.qmd
 
 format:
   html:
