@@ -11,7 +11,8 @@ website:
       - href: intro.qmd
         text: Intro
       - research.qmd 
-      - impacts.qmd
+      - href: impacts.qmd
+        text: Impacts
       - ethics.qmd
       - interactive.qmd
       - reflection.qmd

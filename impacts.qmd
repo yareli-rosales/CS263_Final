@@ -1,5 +1,5 @@
 ---
-title: "Impacts"
+title: "Who it is impacting"
 ---
 
 Click on a stakeholder to learn more about their role and how AI in hiring affects them.
