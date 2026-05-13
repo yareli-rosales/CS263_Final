@@ -14,7 +14,7 @@ Job Applicants
 </h2>
 <div id="applicants" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
 <div class="accordion-body">
-<p>Job applicants are individuals who submit resumes when applying for jobs. Some applicants use AI tools to help write or improve their resumes, while others do not.</p>
+<p>Job applicants are individuals who submit resumes when applying for jobs. Some applicants use AI tools to help write or improve their resumes, while others do not. Applicants may also feel pressured to use AI simply to remain competitive. Even individuals who prefer writing their own materials may fear falling behind if other candidates use AI optimization tools. This creates an environment where AI use becomes normalized, even when applicants have concerns about authenticity or fairness.</p>
 <p><strong>Impact</strong></p>
 <ul>
 <li>Applicants with access to AI tools may gain an advantage, while those without access may be rejected more often, even if equally qualified.</li>
@@ -40,7 +40,7 @@ Resume Reviewers
 </h2>
 <div id="reviewers" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
 <div class="accordion-body">
-<p>Resume reviewers are individuals responsible for reading and evaluating resumes during the hiring process.</p>
+<p>Resume reviewers are individuals responsible for reading and evaluating resumes during the hiring process. Reviewers may experience “automation bias,” where they trust AI recommendations too heavily and overlook qualified candidates who do not fit algorithmic patterns. Over time, this could reduce human judgment in hiring decisions.</p>
 <p><strong>Impact</strong></p>
 <ul>
 <li>They may rely too heavily on AI tools, potentially overlooking strong candidates who do not match AI-generated patterns.</li>
@@ -66,7 +66,7 @@ Human Resources (HR)
 </h2>
 <div id="hr" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
 <div class="accordion-body">
-<p>HR professionals manage hiring processes and ensure that companies follow hiring policies and employment laws.</p>
+<p>HR professionals manage hiring processes and ensure that companies follow hiring policies and employment laws. HR departments may also face legal and ethical risks if AI systems unintentionally discriminate against certain groups of applicants. This creates challenges around accountability because it may be difficult to determine whether biased outcomes were caused by the technology, the company, or the data used to train the system.</p>
 <p><strong>Impact</strong></p>
 <ul>
 <li>They must balance efficiency with fairness while ensuring AI tools do not introduce discrimination.</li>
@@ -92,7 +92,7 @@ AI Companies
 </h2>
 <div id="aicompanies" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
 <div class="accordion-body">
-<p>AI companies develop the tools used to generate and evaluate resumes.</p>
+<p>AI companies develop the tools used to generate and evaluate resumes. AI companies influence hiring practices through the design of their algorithms, training data, and optimization goals. If these systems prioritize speed and efficiency over fairness and transparency, they may unintentionally reinforce existing social inequalities.</p>
 <p><strong>Impact</strong></p>
 <ul>
 <li>They benefit financially from increased AI use but are responsible for ensuring fairness and accuracy.</li>
@@ -118,7 +118,7 @@ The Environment
 </h2>
 <div id="environment" class="accordion-collapse collapse" data-bs-parent="#stakeholders">
 <div class="accordion-body">
-<p>The environment represents natural resources affected by the operation of AI technology and data centers.</p>
+<p>The environment represents natural resources affected by the operation of AI technology and data centers. Large AI systems require powerful data centers that consume significant amounts of electricity and water. As AI hiring tools become more common across industries, the environmental costs of maintaining these systems may continue to increase. This raises ethical questions about whether the benefits of AI efficiency outweigh long-term environmental impacts.</p>
 <p><strong>Impact</strong></p>
 <ul>
 <li>Increased use of AI contributes to higher energy and water consumption, which may negatively impact the environment over time.</li>

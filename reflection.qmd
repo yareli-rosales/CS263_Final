@@ -3,16 +3,24 @@ title: "Conclusion"
 
 ---
 
-## Final Reflection
+# Final Reflection
 
-After reading the contents of our website and interaction with our AI resume reviewer and generator. Which you can visit in the buttom below:
+As AI continues to expand within hiring practices, companies, applicants, and policymakers must decide how to balance efficiency with ethical responsibility.
+
+The future of hiring may depend not only on what AI systems can do, but also on how responsibly and transparently they are used.
+
+
+---
+
+## Interactive AI Experience
+
+After reading the contents of our website and interacting with our AI resume reviewer and generator, reflect on your experience. You can access the interactive tool below:
 
  <a href="interactive.qmd" class="btn btn-primary btn-lg" role="button">
   Interactive AI Audit →</a>
   
-  What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
-
-## Discussion Questions
+ 
+ What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
 
 1. Is the connection between culture and applicants' stories seen in applications? How has it changed?
 2. Should employers treat AI-assisted resumes differently from fully human-written resumes? Why or why not?

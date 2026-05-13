@@ -410,9 +410,9 @@ function analyzeResume() {
         {word: "leadership", label: "Soft Skill: Leadership"},
         {word: "st. olaf", label: "Institutional Prestige: St. Olaf"},
         {word: "internship", label: "Professional Experience: Internship"},
-        {word: "Science", label: "Keyword: Computer Science"},
+        {word: "science", label: "Keyword: Computer Science"},
         {word: "volunteer", label: "Keyword: Volunteering Experience"},
-        {word: "Bachelors", label: "Keyword: Bachelors Degree"}
+        {word: "bachelors", label: "Keyword: Bachelors Degree"}
     ];
 
     let found = criteria.filter(c => text.includes(c.word));
@@ -421,17 +421,19 @@ function analyzeResume() {
     const decisionCard = document.getElementById('decisionCard');
     const decisionText = document.getElementById('decisionText');
     
+ // Adding accesibilty 
     if (score >= 60) {
-        decisionCard.className = "card text-white bg-success mb-3";
-        decisionText.innerText = "QUALIFIED: MOVE TO INTERVIEW";
+        decisionCard.style.backgroundColor = "#0072B2"; 
+        decisionCard.style.color = "white";
+        decisionText.innerHTML = "✓ QUALIFIED: MOVE TO INTERVIEW";
     } else {
-        decisionCard.className = "card text-white bg-danger mb-3";
-        decisionText.innerText = "NOT QUALIFIED: REJECTED";
+        decisionCard.style.backgroundColor = "#D55E00";  
+        decisionCard.style.color = "white";
+        decisionText.innerHTML = "✕ NOT QUALIFIED: REJECTED";
     }
-
     document.getElementById('matchRate').innerText = "Algorithm Match Rate: " + score + "%";
 
-    const list = document.getElementById('keywordList');
+  const list = document.getElementById('keywordList');
     list.innerHTML = "";
     found.forEach(item => {
         let li = document.createElement('li');
@@ -441,10 +443,11 @@ function analyzeResume() {
     });
 
     document.getElementById('biasReport').innerHTML = `
-        <strong>Pattern Priority:</strong> The AI penalized your profile for lacking 
-        ${criteria.length - found.length} specific keywords. <br><br>
-        <strong>Fairness Note:</strong> Even if you have relevant experience, 
-        this algorithm is programmed to flag specific terms.
+        <strong>Pattern Priority:</strong> The AI looked for ${criteria.length} specific markers. 
+        It failed to find ${criteria.length - found.length} of them in your text. <br><br>
+        <strong>Fairness Note:</strong> This bot prioritizes specific degrees (Bachelors) and 
+        institutional names. If you used synonyms like "B.A." or "Community Service" 
+        instead of "Volunteer," the AI ignored them.
     `;
 
     resultsArea.style.display = 'block';
@@ -474,6 +477,14 @@ ORIGINAL INPUT: ${text}`;
     generatorArea.scrollIntoView({ behavior: 'smooth' });
 }
 </script>
+
+<div class="alert alert-secondary mt-5" style="font-size: 0.9rem; border-left: 5px solid #6c757d;">
+    <strong>Ethical Disclosure:</strong> 
+    This interactive tool was implemented with the assistance of AI Gemini to generate the underlying 
+    JavaScript logic and Bootstrap layout. By using AI to build a tool that critiques AI, 
+    this project highlights the "recursive" nature of modern software development 
+    and the importance of human oversight in maintaining inclusive design standards as well as showing how AI is been used in the hiring process.
+</div>
 
 
 </section>

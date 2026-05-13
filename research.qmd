@@ -2,23 +2,60 @@
 title: "Deeper Dive"
 ---
 
+# The Growing Role of AI in Hiring
 
-Recent studies and reports suggest that the use of AI in hiring has significantly changed how employers evaluate candidates. Many hiring managers report that they are reviewing large numbers of resumes that look very similar due to the use of AI tools. This can make it difficult to identify candidates who truly have the skills required for the job.
+Recent studies and reports suggest that the use of AI in hiring has significantly changed how employers evaluate candidates. Many hiring managers report that they are reviewing large numbers of resumes that look very similar due to the use of AI tools. This can make it difficult to identify candidates who truly have the skills required for the job (EBSCO, *AI in Resume Review*).
+
+## Key Findings
+
+- 76% of hiring managers report that finding genuinely skilled candidates has become more difficult in the era of AI-enhanced resumes [(EBSCO, AI in Resume Review)](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/r7coeehicj?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22&searchMode=boolean)
+- 72% of talent acquisition leaders say they do not fully trust the self-reported skills listed on resumes and would prefer to base hiring decisions on validated skills instead [(ProQuest, AI Ethics: Value Conflicts in Hiring)](https://www.proquest.com/scholarly-journals/ai-ethics-david-goliath-value-conflicts-between/docview/3035302150/se-2?accountid=351).
+- Some companies are returning to in-person interviews due to increased AI-assisted cheating [(New York Times, 2025)](https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html).
+
+# AI-Assisted Cheating and Interview Concerns
+
+Some companies have noticed an increase in AI-assisted cheating during job interviews, including the use of AI tools to generate answers or simulate responses. As a result, major companies have begun returning to in-person interviews to better assess candidates’ real abilities and reduce fraud [(New York Times, 2025)](https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html).
+
+Employers are also shifting their focus from what candidates know to how they apply their knowledge. Skills such as problem-solving, communication, adaptability, and collaboration are becoming more important than simply listing qualifications on a resume [(ProQuest, AI Ethics: Value Conflicts in Hiring)](https://www.proquest.com/scholarly-journals/ai-ethics-david-goliath-value-conflicts-between/docview/3035302150/se-2?accountid=351).
+
+Employers are increasingly concerned that AI-generated resumes may exaggerate abilities or create polished applications that do not fully reflect a candidate’s actual experience [(EBSCO, AI, Resumes & Creativity)](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/4n2bgsiiqb?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22%20AND%20creativity&searchMode=boolean).
+
+# Fairness and Bias in AI Hiring Systems
+
+Researchers have raised concerns about fairness and bias in AI hiring systems. Some studies suggest that algorithms trained on previous hiring data may unintentionally favor certain writing styles, educational backgrounds, or names that resemble historically successful candidates [(ResearchGate, The Name Game: Algorithmic Gatekeeping and the Systematic Exclusion of Ethnic Names in Digital Hiring)](https://www.researchgate.net/publication/395262744_The_Name_Game_Algorithmic_Gatekeeping_and_the_Systematic_Exclusion_of_Ethnic_Names_in_Digital_Hiring).
+
+This creates the risk that applicants from different cultural, linguistic, or socioeconomic backgrounds could be unfairly disadvantaged during the screening process [(ResearchGate, The Name Game: Algorithmic Gatekeeping and the Systematic Exclusion of Ethnic Names in Digital Hiring)](https://www.researchgate.net/publication/395262744_The_Name_Game_Algorithmic_Gatekeeping_and_the_Systematic_Exclusion_of_Ethnic_Names_in_Digital_Hiring)..
+
+# Transparency and Trust
+
+Another concern is transparency. Many applicants do not know how AI systems evaluate resumes or why certain applications are rejected. Because some hiring systems operate as “black boxes,” applicants may not fully understand how hiring decisions are made or how to improve their applications fairly [(ProQuest, AI Ethics: Value Conflicts in Hiring)](https://www.proquest.com/scholarly-journals/ai-ethics-david-goliath-value-conflicts-between/docview/3035302150/se-2?accountid=351).
+
+This lack of transparency can reduce trust in the hiring process for both applicants and employers.
+
+# Creativity and Authenticity
+
+There are also growing concerns about creativity and authenticity in professional communication. When applicants rely heavily on AI-generated writing, resumes may begin to lose personal voice and individuality [(EBSCO, AI, Resumes & Creativity)](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/4n2bgsiiqb?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22%20AND%20creativity&searchMode=boolean).
+
+If many applicants use similar AI tools and prompts, resumes can become increasingly standardized, making it harder for reviewers to distinguish authentic experiences, communication skills, and unique perspectives [(EBSCO, AI, Resumes & Creativity)](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/4n2bgsiiqb?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22%20AND%20creativity&searchMode=boolean).
+
+# Contradictions in the Job Market
+
+There is also a contradiction in the current job market:
+
+- Many individuals report difficulty finding employment.
+- However, 67% of employers say they are experiencing a talent shortage.
+
+This suggests that the issue may not simply be a lack of applicants, but rather challenges in identifying qualified candidates in an AI-driven hiring environment.
+
+While AI systems can improve efficiency by processing large numbers of applications quickly, they may also create new barriers related to trust, fairness, bias, and accessibility.
 
 
-- 76% of hiring managers report that finding genuinely skilled candidates has become more difficult in the era of AI-enhanced resumes.
-- 72% of talent acquisition leaders say they do not fully trust the self-reported skills listed on resumes and would prefer to base hiring decisions on validated skills instead.
-- Some companies are returning to in-person interviews due to increased AI-assisted cheating.
 
+# Sources
 
-Some companies have also noticed an increase in AI-assisted cheating during job interviews, including the use of AI tools to generate answers or simulate responses. As a result, major companies have begun returning to in-person interviews to better assess candidates’ real abilities and reduce fraud.
-Another interesting trend is that employers are shifting their focus from what candidates know to how they apply their knowledge. Skills such as problem-solving, communication, and adaptability are becoming more important than simply listing qualifications on a resume.
-
-
-There is also a contradiction in the job market:
-
-- Many individuals report difficulty finding employment
-- However, 67% of employers say they are experiencing a talent shortage
-
-This suggests that the issue may not be a lack of applicants, but rather challenges in identifying qualified candidates in an AI-driven hiring environment. 
-
+- [Resume and Name Discrimination & AI — EBSCO](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/apcqri7pgz?db=f6h&limiters=None&q=resume%20AND%20%22name%20discrimination%22%20AND%20%22artificial%20intelligence%22&searchMode=boolean)
+- [AI in Resume Review — EBSCO](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/r7coeehicj?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22&searchMode=boolean)
+- [AI, Resumes & Creativity — EBSCO](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/4n2bgsiiqb?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22%20AND%20creativity&searchMode=boolean)
+- [AI Chatbot Prompts & Resumes — New York Times](https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html)
+- [AI Ethics: Value Conflicts in Hiring — ProQuest](https://www.proquest.com/scholarly-journals/ai-ethics-david-goliath-value-conflicts-between/docview/3035302150/se-2?accountid=351)
+- [The Name Game: Algorithmic Gatekeeping and the Systematic Exclusion of Ethnic Names in Digital Hiring](https://www.researchgate.net/publication/395262744_The_Name_Game_Algorithmic_Gatekeeping_and_the_Systematic_Exclusion_of_Ethnic_Names_in_Digital_Hiring)

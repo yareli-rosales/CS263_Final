@@ -47,7 +47,7 @@ AI tools are not neutral. They are trained on existing data, which means they ca
 reproduce and amplify existing biases in hiring. Research has shown that name-based
 discrimination remains a problem, and AI screening systems have been found to
 perpetuate this — see the
-[name discrimination study](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/apcqri7pgz?db=f6h&limiters=None&q=resume%20AND%20%22name%20discrimination%22%20AND%20%22artificial%20intelligence%22&searchMode=boolean)
+[name discrimination study](https://www.researchgate.net/publication/395262744_The_Name_Game_Algorithmic_Gatekeeping_and_the_Systematic_Exclusion_of_Ethnic_Names_in_Digital_Hiring)
 for specific findings.
 
 ---
@@ -88,4 +88,4 @@ a concern examined directly in the
 - [AI, Resumes & Creativity — EBSCO](https://research-ebsco-com.content.elibrarymn.org/c/nfiawx/search/details/4n2bgsiiqb?db=f6h&limiters=None&q=resume%20AND%20%22artificial%20intelligence%22%20AND%20creativity&searchMode=boolean)
 - [AI Chatbot Prompts & Resumes — New York Times](https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html)
 - [AI Ethics: Value Conflicts in Hiring — ProQuest](https://www.proquest.com/scholarly-journals/ai-ethics-david-goliath-value-conflicts-between/docview/3035302150/se-2?accountid=351)
-
+- [The Name Game: Algorithmic Gatekeeping and the Systematic Exclusion of Ethnic Names in Digital Hiring](https://www.researchgate.net/publication/395262744_The_Name_Game_Algorithmic_Gatekeeping_and_the_Systematic_Exclusion_of_Ethnic_Names_in_Digital_Hiring)
