@@ -5,10 +5,10 @@ title: "Conclusion"
 
 ## Final Reflection
 
-After reading the contents of our website and interaction with our AI
+After reading the contents of our website and interaction with our AI resume reviewer and generator. Which you can visit in the buttom below:
 
  <a href="interactive.qmd" class="btn btn-primary btn-lg" role="button">
-  Chatbot →</a>
+  Interactive AI Audit →</a>
   
   What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
 
