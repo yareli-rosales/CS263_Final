@@ -1,13 +1,16 @@
 ---
 title: "Conclusion"
-about: 
-  template: trestles
+
 ---
+
 ## Final Reflection
 
-After reading the contents of our website and interaction with our AI <a href="interactive.qmd" class="btn btn-primary btn-lg" role="button">
-  Chatbot →<br>
-</a>, What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
+After reading the contents of our website and interaction with our AI
+
+ <a href="interactive.qmd" class="btn btn-primary btn-lg" role="button">
+  Chatbot →</a>
+  
+  What was the experience like? Please refer back to these discussion questions and reflect on what AI future is in the hiring process.
 
 ## Discussion Questions
 
