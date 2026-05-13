@@ -37,7 +37,7 @@ Click an option to see the details, pros, cons, and ethical framework analysis.
 </div>
 
 <!-- Modal 1 -->
-<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1label" aria-modal="true" role="dialog">
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1label">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="modal-header opt1-header">
@@ -59,7 +59,7 @@ Click an option to see the details, pros, cons, and ethical framework analysis.
 </div>
 
 <!-- Modal 2 -->
-<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2label" aria-modal="true" role="dialog">
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2label">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="modal-header opt2-header">
@@ -81,7 +81,7 @@ Click an option to see the details, pros, cons, and ethical framework analysis.
 </div>
 
 <!-- Modal 3 -->
-<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3label" aria-modal="true" role="dialog">
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3label">
 <div class="modal-dialog modal-lg">
 <div class="modal-content">
 <div class="modal-header opt3-header">
@@ -101,4 +101,15 @@ Click an option to see the details, pros, cons, and ethical framework analysis.
 </div>
 </div>
 </div>
+
+
+<script>
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    document.querySelectorAll('.modal.show').forEach(modal => {
+      bootstrap.Modal.getInstance(modal)?.hide();
+    });
+  }
+});
+</script>
 
